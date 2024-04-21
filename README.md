@@ -22,12 +22,10 @@ Here is an overview of the dataset :
 
 | Feature    | Details |
 |------------|---------|
-| **Source** | Wikipedia, CNN |
-| **Content** | The dataset includes diverse sources such as news articles from CNN and historical information from Wikipedia entries, among others. |
-| **Lengths** | Questions and answers vary in length, with some contexts being quite detailed and extensive. |
-| **Examples** | Wikipedia example: The Vatican Apostolic Library, detailing its history, significance, and various scholarly divisions. CNN example: Auction of Michael Jackson memorabilia. |
-| **Questions** | The dataset contains a sequence of questions that are contextually based on the given passages. Examples include historical facts about the Vatican Library and details about a high-profile auction. |
-| **Answers** | Answers are provided in a sequence, corresponding to the questions asked, illustrating the model's ability to understand and retrieve information from the text. |
+| **Source** | From where does the context come from (wikipedia, cnn etc.) |
+| **Story** | Context in which answers can be found. Answer is always available in the context |
+| **Questions** | Questions that are contextually based on the given passages. |
+| **Answers** | Answers to the questions |
 
 ### Example Entry (Wikipedia - Vatican Apostolic Library)
 
